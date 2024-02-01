@@ -188,7 +188,7 @@ jobs:
     name: 'ServiceNow DevOps Change'
     steps:
       - name: ServiceNow Change
-        uses: ServiceNow/servicenow-devops-change@v3.1.0
+        uses: akhandpratapsingh/Devops-change-custom-task@main
         with:
           # Devops Integration Token
           devops-integration-token: ${{ secrets.SN_DEVOPS_TOKEN }}
