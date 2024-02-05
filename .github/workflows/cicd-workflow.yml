@@ -141,7 +141,7 @@ jobs:
             context-github: ${{ toJSON(github) }}
             # Display Name of the Job
             job-name: 'ServiceNow Security Scan Results'
-            security-result-attributes: '{"scanner": "Veracode", "applicationName": "10kflaws-72"}'
+            security-result-attributes: '{"scanner": "Veracode", "applicationName": "10kflaws-72", "securityToolId": "1c9836c393cf7510271afefd1dba104e"}'
             # scanner: Scanning tool and is required e.g. Veracode.
             # applicationName: Name of your Veracode application and is required. This attribute is applicable only for Veracode.
             # buildVersion: Veracode Scan name / build version and is optional. This attribute is applicable only for Veracode.
