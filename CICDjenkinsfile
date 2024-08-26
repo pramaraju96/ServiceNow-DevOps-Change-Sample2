@@ -165,7 +165,7 @@ pipeline {
 }
 
 def sonarSummaries() {
-	withSonarQubeEnv(installationName: 'ramasonarcloud'){
+	withSonarQubeEnv(installationName: 'sonarcloud.io'){
 		sh 'mvn clean verify sonar:sonar \
 		    -Pcoverage \
 		    -Dsonar.token=1926d793f92181dd0ac406335d4d4bea392a3023 \
